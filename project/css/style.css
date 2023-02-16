@@ -58,12 +58,13 @@ body {
 
 /*------------------------------------- */
 /* Header */
+
 .header {
-    background-color: black;
     display: flex;
     top: 0;
     left: 0;
     width: 100%;
+    position: fixed;
 }
 
 .wrapper {
@@ -94,6 +95,7 @@ body {
 
 .header__item {
     margin-right: 82px;
+    list-style-type: none;
 }
 
 .header__item:last-child {
@@ -108,13 +110,37 @@ body {
     color: #FFFFFF;
     text-decoration: none;
 }
-.header__link:hover, .header__link:focus  {
+
+.header__link:hover,
+.header__link:focus {
     filter: brightness(60%);
     transition: 0.2s;
 }
+
 .header__link:active {
     color: #ffde24;
 }
 
 /* Header end*/
+/*------------------------------------- */
+
+
+
+
+/*------------------------------------- */
+/* Main*/
+.main {}
+
+/* Intro */
+
+.intro {
+    height: 100vh;
+    background: url(../img/intro_background.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+/* Intro end*/
+
+/* Main end*/
 /*------------------------------------- */
